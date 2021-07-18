@@ -1,0 +1,164 @@
+.hide {
+  display:none;}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}}
+
+
+body {
+  background-color: whitesmoke;}
+
+#navigation {
+  position: fixed;
+  width: max-content;
+  padding-right: 3em;}
+#menuContainer {
+  position:absolute;
+  width: max-content;
+  margin-top: 0em;
+  margin-left: 0.35em;
+  padding-bottom: 1em;}
+
+button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+
+  color:rgb(27, 27, 27);
+  font-size: 1em;
+  font-family: "Shippori Mincho";
+  margin-top: 1em;
+  margin-left: 1.7em;}
+  button:hover {
+    color: navy;}
+  button:active {
+  color:firebrick}
+
+.NavProject {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    color:rgb(27, 27, 27);
+    font-size: 1em;
+    font-family: "Shippori Mincho";
+    margin-top: 1em;
+    margin-left: 1.7em;}
+  .NavProject:hover {
+      color: navy;}
+  .NavProject:active {
+    color:firebrick}
+    
+
+  h1 {
+    color:rgb(27, 27, 27);
+    font-size: 2em; font-family: "Shippori Mincho";
+    margin-top: 1em; margin-left: 1.3em;
+    text-decoration: none;}
+    h1:hover {
+     color: navy;}
+     
+    h1:active {
+      color:firebrick}
+
+  h2 {
+    color:rgb(100, 100, 100);
+    font-size: 13px; font-family: "Mulish";
+    padding-bottom: 1em;
+    width: 29%;
+    line-height: 1.6;
+    text-align: justify;}
+
+  h3 {
+    color:rgb(100, 100, 100);
+    font-size: 13px; font-family: "Mulish";
+    padding-bottom: 1em;
+    width: 29%;
+    line-height: 1.6;
+    text-align: justify;}
+
+  a {
+    color:rgb(100, 100, 100);
+    font-size: 13px; font-family: "Mulish";
+    padding-bottom: 1em;
+    width: 29%;
+    line-height: 1.6;
+    text-align: justify;
+    text-decoration: none;}
+
+.ProjectInfo {
+  position: absolute;
+  left: 400px;
+  top: 4.4em;
+    }
+
+
+.writing {
+  margin-bottom: 18em;
+}
+.facts {
+  float: left;
+  margin-top: 1em;
+  height: 0em;
+  width: 100%;
+  /*background-color:darkgray;*/
+  }
+.body {
+  height: 100%;
+  width: 175%;
+  float: left;
+  margin-left: 30%;
+  /*background-color:darkgray;*/
+}
+
+.bodyAbout {
+  height: 100%;
+  width: 175%;
+  margin-top: 1.5em;
+  /*background-color:darkgray;*/
+}
+
+.image {
+  width: 80%;
+  padding-top: 2em;
+}
+.iframe {
+  width: 80%;
+  height:fit-content;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  .ProjectInfo {
+    width: 100%;
+    left: 2.1em;
+    position: relative;
+  }
+  #navigation {
+    position: relative;
+  }
+
+  .bodyAbout {
+    height: 100%;
+    width: 175%;
+    margin-top: 20em;
+    /*background-color:darkgray;*/
+  }}
+
+
+
+
